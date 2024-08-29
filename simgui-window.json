@@ -1,0 +1,81 @@
+{
+  "Docking": {
+    "Data": [
+      "DockNode      ID=0x00000005 Pos=-28,110 Size=777,446 Split=Y",
+      "DockNode    ID=0x00000001 Parent=0x00000005 SizeRef=394,90 Split=X",
+      "DockNode  ID=0x00000006 Parent=0x00000001 SizeRef=91,140 Selected=0x39AD1970",
+      "DockNode  ID=0x00000007 Parent=0x00000001 SizeRef=190,140 Selected=0xC8493FD8",
+      "DockNode    ID=0x00000002 Parent=0x00000005 SizeRef=394,87 Split=X",
+      "DockNode  ID=0x00000003 Parent=0x00000002 SizeRef=191,155 Selected=0x6AE6D891",
+      "DockNode  ID=0x00000004 Parent=0x00000002 SizeRef=603,155 Selected=0x138219D4"
+    ]
+  },
+  "MainWindow": {
+    "GLOBAL": {
+      "fps": "120",
+      "height": "720",
+      "maximized": "0",
+      "style": "0",
+      "userScale": "2",
+      "width": "1280",
+      "xpos": "167",
+      "ypos": "-1313"
+    }
+  },
+  "Window": {
+    "###FMS": {
+      "Collapsed": "0",
+      "DockId": "0x00000007,0",
+      "Pos": "225,110",
+      "Size": "524,226"
+    },
+    "###Joysticks": {
+      "Collapsed": "0",
+      "DockId": "0x00000004,0",
+      "Pos": "160,338",
+      "Size": "589,218"
+    },
+    "###Keyboard 0 Settings": {
+      "Collapsed": "0",
+      "Pos": "664,116",
+      "Size": "300,560"
+    },
+    "###NetworkTables": {
+      "Collapsed": "0",
+      "Pos": "250,277",
+      "Size": "750,185"
+    },
+    "###NetworkTables Info": {
+      "Collapsed": "0",
+      "Pos": "250,135",
+      "Size": "750,145"
+    },
+    "###Other Devices": {
+      "Collapsed": "0",
+      "Pos": "1025,20",
+      "Size": "250,695"
+    },
+    "###System Joysticks": {
+      "Collapsed": "0",
+      "DockId": "0x00000003,0",
+      "Pos": "-28,338",
+      "Size": "186,218"
+    },
+    "###Timing": {
+      "Collapsed": "0",
+      "Pos": "13,230",
+      "Size": "185,173"
+    },
+    "Debug##Default": {
+      "Collapsed": "0",
+      "Pos": "60,60",
+      "Size": "400,400"
+    },
+    "Robot State": {
+      "Collapsed": "0",
+      "DockId": "0x00000006,0",
+      "Pos": "-28,110",
+      "Size": "251,226"
+    }
+  }
+}
