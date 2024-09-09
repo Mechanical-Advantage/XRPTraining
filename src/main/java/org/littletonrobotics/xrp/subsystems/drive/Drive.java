@@ -30,6 +30,10 @@ public class Drive extends SubsystemBase {
   public void periodic() {
     io.updateInputs(inputs);
     Logger.processInputs("Drive", inputs);
+
+    drivePercent(
+        -keyboard.getRawAxis(1) + keyboard.getRawAxis(0),
+        -keyboard.getRawAxis(1) - keyboard.getRawAxis(0));
   }
 
   /** Run open loop based on percentages. */
